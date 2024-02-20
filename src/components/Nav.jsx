@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 const Nav = () => {
     return (
-        <nav className=" gap-3 my-5 px-28 flex justify-between">
+        <nav className=" gap-3 px-28 flex justify-between h-2/5 p-0 m-0 items-center py-2">
             <div className="logo text-2xl font-bold">JOBSPHERE</div>
             <input className="input-group w-96 px-5 py-2 border-gray-400 border-2 border-solid border-1 rounded-xl bg-slate-100" type="text" placeholder="search..." />
             <ul className="flex gap-4">

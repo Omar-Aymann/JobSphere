@@ -6,3 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+.hero
+{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.6867997198879552) 58%, rgba(213,213,213,0.4907212885154062) 100%) url("assets/bg.jpg");
+}
