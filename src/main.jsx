@@ -7,6 +7,7 @@ import Home from './components/Home.jsx'
 import Jobs from './components/Jobs.jsx'
 import Job from './components/Job.jsx'
 import Login from './components/Login.jsx'
+import NewJob from './components/NewJob.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
       <Route path="jobs" element={<Jobs />}></Route>
       <Route path="login" element={<Login />}></Route>
       <Route path="job/:id" element={<Job />}></Route>
+      <Route path="job/create" element={<NewJob />}></Route>
     </Route>
   )
 )
